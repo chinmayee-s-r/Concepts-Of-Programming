@@ -1,19 +1,19 @@
 #include<stdio.h>
 
-void Display(int No){
+void Display(int No)    // Callee
+{
+    int iCnt = 0;
 
-    static int iCnt = 0;
-
-    if(iCnt < No){
-        printf("Jay Ganesh! \n");
+    while(iCnt < No)
+    {
+        printf("Jay Ganesh...\n");
         iCnt++;
-        Display(No);                // Recursive Call
     }
 }
 
-int main(){
-
-    Display(4);
+int main()      // Caller
+{
+    Display(4);     
 
     return 0;
 }
