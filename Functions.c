@@ -1,13 +1,17 @@
 #include<stdio.h>
 
-void Display(){
-    printf("My name is Chinmayee.");
+void Display()
+{
+    printf("My name is Marvellous Infosystems\n");
 }
 
-int main(){
-    printf("Inside main Function");
+int main()
+{
+    printf("Inside main function\n");
+
     Display();
-    printf("End of main Function");
+
+    printf("End of main\n");
+    
     return 0;
 }
-

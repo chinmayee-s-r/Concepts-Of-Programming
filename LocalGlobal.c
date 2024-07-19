@@ -1,24 +1,23 @@
 #include<stdio.h>
 
-int X =101;
+int x = 101;
 
-void Marvellous(){
-
+void Marvellous()
+{
     int i = 21;
     int no = 51;
 
-    printf("From Marvellous value of no is : %d\n", no);
-    printf("From Marvellous value of i is : %d\n", i);
-    printf("From Marvellous value of X is : %d\n", X);
-
+    printf("From Marvellous value of no is : %d\n",no); // 51
+    printf("From Marvellous value of i is : %d\n",i);   // 21
+    printf("From Marvellous value of x is : %d\n",x);   // 101
 }
 
-int main(){
-
+int main()
+{
     int no = 11;
-    
-    printf("From main value of no is : %d\n", no);
-    printf("From main value of x is : %d\n", X);
+
+    printf("From main value of no is : %d\n",no);   // 11
+    printf("From main value of x is : %d\n",x); // 101
 
     Marvellous();
 
