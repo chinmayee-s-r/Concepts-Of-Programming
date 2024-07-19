@@ -1,19 +1,18 @@
-//ArrayList
-import java.util.io;
-import java.util.Iterator;
-import java.util.Hashtable;
+// HashTable
 
-class Collections4{
+import java.util.*;
 
-    public static void main(String[] args) {
+class Collections4
+{
+    public static void main(String Arg[])
+    {
+        Hashtable <String, Integer> hobj = new Hashtable<String, Integer>();
+
+        hobj.put("PPA",19500);
+        hobj.put("LB",20000);
+        hobj.put("Python",20500);
+        hobj.put("Angular",21000);
         
-        Hashtable<String, Integer> hobj = new Hashtable<String, Integer>();
-
-        hobj.push("PPA", 19500);
-        hobj.push("LB", 20000);
-        hobj.push("Python", 20500);
-        hobj.push("Angular", 21000);
-
         System.out.println(hobj.get("Python"));
     }
 }
